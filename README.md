@@ -1,6 +1,6 @@
 # easy_transcription
 
-This is an aggregate of several other open transcription/diarization/google sheets tutorials into what I find to be the easiest way to transcribe>diarize>send to sheets.
+This is an aggregate of several other open transcription/diarization/google sheets tutorials into what I find to be the easiest way to transcribe>diarize>send to sheets. Using Whisper for transcription, PyAnnote for diarization, and App Engine APIs for sheets. 
 
 1. python3 -m venv venv 
 1. source venv/bin/activate 
