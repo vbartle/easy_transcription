@@ -4,8 +4,8 @@ This is an aggregate of several other open transcription/diarization/google shee
 
 1. python3 -m venv venv 
 1. source venv/bin/activate 
-1. pip install -r requirements.txt
-1. jupyter-notebook .
+1. python3 -m pip install -r requirements.txt
+1. python3 -m jupyter notebook .
 
 Drop in your mp3 files of interest in the same directory.
 I initially made a simple GUI for this but you will likely need to tinker with the code for example if you have different audio formats or want to use a different size Whisper model, or if you run out of CUDA memory. Definitely open to PR's or ideas on how to make this more format agnostic and easier to use!
