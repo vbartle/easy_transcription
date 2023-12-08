@@ -13,3 +13,4 @@ I initially made a simple GUI for this but you will likely need to tinker with t
 There are two notebooks, one is just to CSV, the other goes a bit further and pushes the csv straight to a sheets setup from a Google App Engine account -- if you're interested in that.  
 
 Please raise issues if you run into them! A lot of the difficulty in this I've found is getting the requirements to work together as e.g. pyannote and whisper sometimes have conflicting requirements.
+*Also, in case you're taking zoom recordings and converting -- there's a script here for that, which you just run as python3 convert_m4a_to_mp3.py filename; **you might have to install some requirements.
